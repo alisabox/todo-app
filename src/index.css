@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 50px;
+}
+
+@import '~antd/dist/antd.css';
+
+.ant-card-body {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.ant-form-item {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.ant-form-item-label {
+  text-align: left;
+}
+
+.ant-form-item-control-input-content {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  row-gap: 10px;
+}
+
+.ant-form-item-control-input-content button {
+  flex-grow: 1;
+}
