@@ -5,6 +5,12 @@ body {
 
 @import '~antd/dist/antd.css';
 
+.ant-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .ant-card-body {
   display: flex;
   justify-content: flex-start;
